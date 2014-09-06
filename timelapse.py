@@ -8,3 +8,4 @@ new_dir = "..\\timelapsefootage\\"
 outputname = '..\\timelapse.mp4'
 
 cmd = "mkdir ..\\timelapsefootage" 
+os.system(cmd)
