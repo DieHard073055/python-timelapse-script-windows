@@ -15,3 +15,4 @@ for filename in os.listdir(pics_dir_proper):
 	os.system(cmd)
 	imagenumber = imagenumber+1
 cmd = '..\\ffmpeg\\bin\\ffmpeg.exe -f image2 -i ' + new_dir + '\\%d.JPG -r 25 -s 960x640 -vcodec libx264 ' + outputname
+os.system(cmd)
