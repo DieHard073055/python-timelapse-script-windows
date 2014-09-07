@@ -13,3 +13,4 @@ for filename in os.listdir(pics_dir_proper):
 	newname = new_dir + str(imagenumber) + ".JPG"
 	cmd = "copy" + pics_dir_proper + "\\" + filename + "," + newname
 	os.system(cmd)
+	imagenumber = imagenumber+1
